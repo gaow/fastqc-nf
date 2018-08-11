@@ -1,0 +1,3 @@
+FROM gaow/fastqc-nf:latest 
+
+RUN conda install -y awscli
